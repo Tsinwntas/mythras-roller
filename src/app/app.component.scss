@@ -1,0 +1,59 @@
+mat-card:nth-child(even) {
+  background-color: #a58ecd;
+}
+
+mat-card:nth-child(odd) {
+  background-color: #c0afdd;
+}
+
+button {
+  min-width: 115px;
+}
+
+mat-card-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input.skill-input {
+  width: 32px;
+}
+
+.success-levels {
+  text-align: center;
+}
+
+.difficulties .success-levels:nth-child(2) {
+  width: 32px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.icon-check,
+.icon-gps_fixed {
+  color: green;
+}
+.icon-close,
+.icon-bolt {
+  color: red;
+}
+::ng-deep .mat-form-field-wrapper {
+  margin-bottom: -1.25em;
+}
+::ng-deep .mat-mdc-text-field-wrapper {
+  margin-bottom: -1.25em;
+}
+::ng-deep .ng-star-inserted {
+    display: flex;
+    align-items: center;
+}
